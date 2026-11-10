@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/air/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
@@ -76,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/air/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
@@ -97,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/air/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
