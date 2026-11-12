@@ -772,7 +772,7 @@ PRODUCT_PACKAGES += \
     libfgauge_gm30 \
     libfile_op \
     libforkexecwrap \
-    libformatter \
+    libformatter-v33 \
     libged \
     libgf_ca \
     libgf_hal \
@@ -813,7 +813,7 @@ PRODUCT_PACKAGES += \
     libmml \
     libmmprofile \
     libmnetlink_v104 \
-    libmnl \
+    libmnl-v33 \
     libmorpho_HdrChecker \
     libmorpho_MFNR \
     libmsbc_mtk \
@@ -1120,9 +1120,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.apusys-V1-ndk \
     vendor.mediatek.hardware.apuware.utils@2.0_vendor \
     vendor.mediatek.hardware.audio@8.1 \
-    vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.aovservice-V1-ndk \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
@@ -1163,7 +1160,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex.sim-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.voice-V1-ndk \
-    vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
     vendor.mediatek.hardware.neuropilot.agent@1.2 \
