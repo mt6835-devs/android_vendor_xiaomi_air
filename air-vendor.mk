@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/air
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/air/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/xiaomi/air/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/xiaomi/air/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
@@ -1120,6 +1121,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.utils@2.0_vendor \
     vendor.mediatek.hardware.audio@8.1 \
     vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.aovservice-V1-ndk \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
@@ -1186,6 +1189,11 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq_aidl-V3-ndk \
     vendor.mediatek.hardware.rcs@2.0 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
+    libmtk_vt_wrapper \
+    libvcodec_cap \
+    libvcodec_capenc \
+    vendor.mediatek.hardware.videotelephony-V1-ndk \
+    vendor.mediatek.hardware.videotelephony@1.0 \
     libapuwareapusys.mtk \
     libapuwareapusys_v2.mtk \
     libapuwarehmp.mtk \
@@ -1195,6 +1203,12 @@ PRODUCT_PACKAGES += \
     libapuwarexrp_v2.mtk \
     libarmnn_ndk.mtk \
     libcmdl_ndk.mtk \
+    libcomutils \
+    libimsma \
+    libimsma_adapt \
+    libimsma_rtp \
+    libimsma_socketwrapper \
+    libmtk_vt_service \
     libmvpu_cic_ci_compiler.mtk \
     libmvpu_cic_ci_compiler_25.mtk \
     libmvpu_clc_14_mvpu_elf_25.mtk \
@@ -1221,7 +1235,11 @@ PRODUCT_PACKAGES += \
     libneuron_graph_delegate.mtk \
     libneuronusdk_adapter.mtk \
     libnir_neon_driver_ndk.mtk \
+    libsignal \
+    libsink-mtk \
+    libsource \
     libtflite_mtk.mtk \
+    libvt_avsync \
     vendor.mediatek.hardware.apuware.apusys-V5-ndk \
     vendor.mediatek.hardware.apuware.apusys@1.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
@@ -1277,7 +1295,8 @@ PRODUCT_PACKAGES += \
     volte_clientapi_ua \
     wlan_assistant \
     wmt_launcher \
-    wmt_loader
+    wmt_loader \
+    vtservice
 
 PRODUCT_PACKAGES += \
     vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
